@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="repositories\catProducto\" />
+    <Folder Include="repositories\detVenta\" />
+    <Folder Include="repositories\inventario\" />
+    <Folder Include="repositories\venta\" />
+    <Folder Include="repositories\proveedor\" />
+    <Folder Include="repositories\producto\" />
+  </ItemGroup>
+
+</Project>
